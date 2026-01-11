@@ -11,7 +11,7 @@ export function Navbar() {
     const navItems = [
         { name: 'HOME', href: '/' },
         { name: 'CATALOG', href: '/catalog' },
-        { name: 'LOGISTICS', href: '/export' },
+        { name: 'EXPORT', href: '/export' },
         { name: 'ABOUT', href: '/about' },
     ];
 
@@ -22,13 +22,27 @@ export function Navbar() {
 
                     {/* Logo (Mobile Only) */}
                     <div className="flex items-center md:hidden">
-                        <Image src="/logo.png" alt="Borbore Logo" width={120} height={40} className="h-10 w-auto" />
+                        <Link href="/">
+                            <Image
+                                src="/logo.svg"
+                                alt="BORBORÉ Logo"
+                                width={120}
+                                height={40}
+                                className="h-10 w-auto"
+                            />
+                        </Link>
                     </div>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex md:items-center md:gap-8">
-                        <Link href="/">
-                            <Image src="/logo.png" alt="Borbore Logo" width={150} height={50} className="mr-8 h-12 w-auto cursor-pointer" />
+                        <Link href="/" className="mr-8 cursor-pointer">
+                            <Image
+                                src="/logo.svg"
+                                alt="BORBORÉ Logo"
+                                width={150}
+                                height={50}
+                                className="h-12 w-auto"
+                            />
                         </Link>
                         {navItems.map((item) => (
                             <Link
@@ -42,7 +56,12 @@ export function Navbar() {
                     </div>
 
                     <div className="hidden md:flex items-center space-x-6">
-                        {/* Cart Removed as requested */}
+                        <Link
+                            href="/export"
+                            className="px-6 py-2 bg-primary text-white rounded-full text-xs font-bold tracking-wider hover:bg-amber-600 transition-colors"
+                        >
+                            GET QUOTE
+                        </Link>
                     </div>
 
                     {/* Mobile menu button */}
@@ -71,6 +90,13 @@ export function Navbar() {
                                 {item.name}
                             </Link>
                         ))}
+                        <Link
+                            href="/export"
+                            className="block px-3 py-3 text-sm font-bold tracking-widest text-primary"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            GET QUOTE
+                        </Link>
                     </div>
                 </div>
             )}

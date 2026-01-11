@@ -1,7 +1,7 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { Button } from '@/components/ui/Button';
-import { Container, Truck, Anchor, FileText } from 'lucide-react';
+import { Container, Truck, Anchor, FileText, Shield, CheckCircle2, Leaf, Award } from 'lucide-react';
 
 export default function Export() {
     return (
@@ -11,10 +11,10 @@ export default function Export() {
                 {/* Header */}
                 <div className="bg-gradient-to-b from-zinc-900 to-black pt-32 pb-16 border-b border-white/5">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                        <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Logistics</span>
-                        <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">Global Export Solutions</h1>
+                        <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Export Solutions</span>
+                        <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">Global Coffee Export</h1>
                         <p className="max-w-2xl mx-auto text-white/60 text-lg leading-relaxed">
-                            Comprehensive shipping solutions to deliver freshness from Indonesia to your destination.
+                            Professional export management for premium Indonesian coffee from North Sumatra and Aceh to buyers worldwide.
                         </p>
                     </div>
                 </div>
@@ -50,8 +50,43 @@ export default function Export() {
                             <div className="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
                                 <Truck className="h-7 w-7" />
                             </div>
-                            <h3 className="font-serif font-bold text-xl mb-3">Capacity</h3>
-                            <p className="text-white/60 leading-relaxed">500 Tons / Month <br /> Consistent Supply</p>
+                            <h3 className="font-serif font-bold text-xl mb-3">Supply Regions</h3>
+                            <p className="text-white/60 leading-relaxed">North Sumatra <br /> Aceh</p>
+                        </div>
+                    </div>
+
+                    {/* Quality Control Section */}
+                    <div className="mb-24">
+                        <div className="text-center mb-16">
+                            <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Quality Control</span>
+                            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">Meeting International Standards</h2>
+                            <p className="max-w-3xl mx-auto text-white/60 text-lg">
+                                Our operations are supported by strict quality control processes, from harvesting and post-harvest handling to grading, sorting, and export preparation, in compliance with international standards.
+                            </p>
+                        </div>
+
+                        <div className="grid md:grid-cols-3 gap-8">
+                            <div className="bg-zinc-900/50 p-8 rounded-2xl border border-white/5">
+                                <Shield className="h-10 w-10 text-primary mb-6" />
+                                <h3 className="font-serif font-bold text-xl text-white mb-4">Lot Evaluation</h3>
+                                <p className="text-white/60 leading-relaxed">
+                                    Each lot is carefully evaluated to meet buyer specifications, including moisture content, screen size, defect tolerance, and cupping profile.
+                                </p>
+                            </div>
+                            <div className="bg-zinc-900/50 p-8 rounded-2xl border border-white/5">
+                                <Leaf className="h-10 w-10 text-primary mb-6" />
+                                <h3 className="font-serif font-bold text-xl text-white mb-4">Ethical Sourcing</h3>
+                                <p className="text-white/60 leading-relaxed">
+                                    Empowering farmers with sustainable sourcing practices and fair trade principles for long-term community development.
+                                </p>
+                            </div>
+                            <div className="bg-zinc-900/50 p-8 rounded-2xl border border-white/5">
+                                <Award className="h-10 w-10 text-primary mb-6" />
+                                <h3 className="font-serif font-bold text-xl text-white mb-4">GI Certification</h3>
+                                <p className="text-white/60 leading-relaxed">
+                                    Our Sidikalang and Gayo coffees hold Geographical Indication (GI) certification, ensuring authentic regional quality.
+                                </p>
+                            </div>
                         </div>
                     </div>
 
@@ -59,7 +94,7 @@ export default function Export() {
                     <div className="grid md:grid-cols-2 gap-16 items-start">
                         <div className="space-y-12">
                             <div>
-                                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">Shipping & Handling</h2>
+                                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">Export Process</h2>
                                 <p className="text-white/70 text-lg leading-relaxed">
                                     We take extra care in packaging to ensure the beans remain fresh during transit. Our standard packaging involves GrainPro bags inside jute bags to maintain moisture content and prevent contamination.
                                 </p>
@@ -83,7 +118,7 @@ export default function Export() {
                                 <div className="flex gap-6">
                                     <div className="w-12 h-12 rounded-full border border-primary text-primary flex items-center justify-center flex-shrink-0 font-bold text-xl">3</div>
                                     <div>
-                                        <h4 className="font-bold text-xl mb-2 text-white">Documents</h4>
+                                        <h4 className="font-bold text-xl mb-2 text-white">Documentation</h4>
                                         <p className="text-white/50">ICO Certificate, Bill of Lading, Phytosanitary, and Invoice provided promptly.</p>
                                     </div>
                                 </div>
@@ -104,6 +139,17 @@ export default function Export() {
                                 <div>
                                     <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Destination Port</label>
                                     <input type="text" className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white focus:outline-none focus:border-primary transition-colors" placeholder="e.g. Hamburg, Rotterdam" />
+                                </div>
+                                <div>
+                                    <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Coffee Origin Interest</label>
+                                    <select className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white focus:outline-none focus:border-primary transition-colors">
+                                        <option value="">Select origin</option>
+                                        <option value="siborong-borong">Siborong-Borong (Arabica)</option>
+                                        <option value="sidikalang">Sidikalang (Arabica & Robusta)</option>
+                                        <option value="mandailing">Mandailing (Arabica & Robusta)</option>
+                                        <option value="gayo">Gayo Highland (Arabica)</option>
+                                        <option value="mixed">Mixed / Custom Blend</option>
+                                    </select>
                                 </div>
                                 <div>
                                     <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Message</label>

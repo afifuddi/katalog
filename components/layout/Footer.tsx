@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Coffee, Mail, Phone, MapPin, Instagram, Linkedin } from 'lucide-react';
+import Image from 'next/image';
+import { Mail, MapPin, Instagram, Linkedin, Building2 } from 'lucide-react';
 
 export function Footer() {
     return (
@@ -9,11 +10,18 @@ export function Footer() {
 
                     {/* Brand */}
                     <div className="space-y-6">
-                        <div className="flex items-center space-x-2">
-                            <span className="font-serif font-bold text-2xl text-white tracking-widest">BORBORE</span>
+                        <div>
+                            <Image
+                                src="/logo.svg"
+                                alt="BORBORÉ Logo"
+                                width={140}
+                                height={45}
+                                className="h-11 w-auto mb-2"
+                            />
+                            <p className="text-xs text-white/40 mt-1">PT Agro Beans Global</p>
                         </div>
                         <p className="text-sm text-white/60 leading-relaxed font-light">
-                            Connecting Indonesian farmers with the global market. Authentic, sustainable, and high-quality coffee beans.
+                            Highland Coffee From North Sumatera. Professional Indonesian coffee exporter delivering premium Arabica and Robusta from North Sumatra and Aceh.
                         </p>
                     </div>
 
@@ -21,8 +29,8 @@ export function Footer() {
                     <div>
                         <h3 className="font-serif font-bold text-lg mb-6">Quick Links</h3>
                         <ul className="space-y-4 text-sm text-white/60">
-                            <li><Link href="/catalog" className="hover:text-primary transition-colors">Catalog</Link></li>
-                            <li><Link href="/export" className="hover:text-primary transition-colors">Logistics</Link></li>
+                            <li><Link href="/catalog" className="hover:text-primary transition-colors">Our Coffee</Link></li>
+                            <li><Link href="/export" className="hover:text-primary transition-colors">Export Solutions</Link></li>
                             <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
                         </ul>
                     </div>
@@ -33,15 +41,23 @@ export function Footer() {
                         <ul className="space-y-4 text-sm text-white/60">
                             <li className="flex items-center space-x-3">
                                 <Mail className="h-4 w-4 text-primary" />
-                                <span>hello@borbore.id</span>
+                                <a href="mailto:borboreofficial.id@gmail.com" className="hover:text-primary transition-colors">
+                                    borboreofficial.id@gmail.com
+                                </a>
                             </li>
-                            <li className="flex items-center space-x-3">
-                                <Phone className="h-4 w-4 text-primary" />
-                                <span>+62 812 3456 7890</span>
+                            <li className="flex items-start space-x-3">
+                                <Building2 className="h-4 w-4 mt-1 text-primary" />
+                                <div>
+                                    <span className="block text-white/40 text-xs uppercase tracking-wider mb-1">Head Office</span>
+                                    <span>Bekasi, West Java, Indonesia</span>
+                                </div>
                             </li>
                             <li className="flex items-start space-x-3">
                                 <MapPin className="h-4 w-4 mt-1 text-primary" />
-                                <span>Medan, North Sumatra, Indonesia</span>
+                                <div>
+                                    <span className="block text-white/40 text-xs uppercase tracking-wider mb-1">Production</span>
+                                    <span>North Tapanuli, Siborong-Borong & Aceh</span>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -57,11 +73,20 @@ export function Footer() {
                                 <Linkedin className="h-5 w-5" />
                             </a>
                         </div>
+                        <div className="mt-8">
+                            <p className="text-xs text-white/40 uppercase tracking-wider mb-2">Our Regions</p>
+                            <div className="flex flex-wrap gap-2">
+                                <span className="px-3 py-1 bg-white/5 rounded-full text-xs text-white/60">Siborong-Borong</span>
+                                <span className="px-3 py-1 bg-white/5 rounded-full text-xs text-white/60">Sidikalang</span>
+                                <span className="px-3 py-1 bg-white/5 rounded-full text-xs text-white/60">Mandailing</span>
+                                <span className="px-3 py-1 bg-white/5 rounded-full text-xs text-white/60">Gayo</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-white/5 text-center text-sm text-white/40">
-                    <p>&copy; {new Date().getFullYear()} Borbore.id. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} PT Agro Beans Global (AF Brother Group). All rights reserved.</p>
                 </div>
             </div>
         </footer>

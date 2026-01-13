@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/Button';
-import { CheckCircle, Loader2, AlertCircle } from 'lucide-react';
+import { CheckCircle, Loader2, AlertCircle, X } from 'lucide-react';
 
 export function QuoteForm() {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -57,15 +57,22 @@ export function QuoteForm() {
 
             {result && (
                 <div className={`mb-6 p-4 rounded-xl flex items-start gap-3 ${result.success
-                        ? 'bg-green-500/10 border border-green-500/20 text-green-400'
-                        : 'bg-red-500/10 border border-red-500/20 text-red-400'
+                    ? 'bg-green-500/10 border border-green-500/20 text-green-400'
+                    : 'bg-red-500/10 border border-red-500/20 text-red-400'
                     }`}>
                     {result.success ? (
                         <CheckCircle className="h-5 w-5 mt-0.5 flex-shrink-0" />
                     ) : (
                         <AlertCircle className="h-5 w-5 mt-0.5 flex-shrink-0" />
                     )}
-                    <span className="text-sm">{result.message}</span>
+                    <span className="text-sm flex-grow">{result.message}</span>
+                    <button
+                        type="button"
+                        onClick={() => setResult(null)}
+                        className="flex-shrink-0 hover:opacity-70 transition-opacity"
+                    >
+                        <X className="h-4 w-4" />
+                    </button>
                 </div>
             )}
 

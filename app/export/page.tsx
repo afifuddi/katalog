@@ -1,7 +1,7 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
-import { Button } from '@/components/ui/Button';
-import { Container, Truck, Anchor, FileText, Shield, CheckCircle2, Leaf, Award } from 'lucide-react';
+import { Container, Truck, Anchor, FileText, Shield, Leaf, Award } from 'lucide-react';
+import { QuoteForm } from '@/components/features/QuoteForm';
 
 export default function Export() {
     return (
@@ -125,39 +125,7 @@ export default function Export() {
                             </div>
                         </div>
 
-                        <div className="bg-zinc-900 rounded-3xl p-10 border border-white/10">
-                            <h3 className="text-2xl font-serif font-bold text-white mb-8">Request a Quote</h3>
-                            <form className="space-y-6">
-                                <div>
-                                    <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Company Name</label>
-                                    <input type="text" className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white focus:outline-none focus:border-primary transition-colors" placeholder="Enter company name" />
-                                </div>
-                                <div>
-                                    <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Email</label>
-                                    <input type="email" className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white focus:outline-none focus:border-primary transition-colors" placeholder="name@company.com" />
-                                </div>
-                                <div>
-                                    <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Destination Port</label>
-                                    <input type="text" className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white focus:outline-none focus:border-primary transition-colors" placeholder="e.g. Hamburg, Rotterdam" />
-                                </div>
-                                <div>
-                                    <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Coffee Origin Interest</label>
-                                    <select className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white focus:outline-none focus:border-primary transition-colors">
-                                        <option value="">Select origin</option>
-                                        <option value="siborong-borong">Siborong-Borong (Arabica)</option>
-                                        <option value="sidikalang">Sidikalang (Arabica & Robusta)</option>
-                                        <option value="mandailing">Mandailing (Arabica & Robusta)</option>
-                                        <option value="gayo">Gayo Highland (Arabica)</option>
-                                        <option value="mixed">Mixed / Custom Blend</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label className="block text-xs font-bold uppercase tracking-widest text-white/40 mb-2">Message</label>
-                                    <textarea className="w-full rounded-xl border border-white/10 px-4 py-3 bg-black/50 text-white h-32 focus:outline-none focus:border-primary transition-colors" placeholder="Tell us about your requirements..."></textarea>
-                                </div>
-                                <Button className="w-full rounded-full bg-primary hover:bg-amber-600 h-12 font-bold text-black hover:text-white transition-all">Send Request</Button>
-                            </form>
-                        </div>
+                        <QuoteForm />
                     </div>
                 </div>
             </main>

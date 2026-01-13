@@ -69,9 +69,6 @@ export function Footer() {
                             <a target='_blank' href="https://www.instagram.com/borbore.id" className="p-3 bg-zinc-900 rounded-full hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5">
                                 <Instagram className="h-5 w-5" />
                             </a>
-                            <a target='_blank' href="https://www.linkedin.com/company/borbore-id/" className="p-3 bg-zinc-900 rounded-full hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5">
-                                <Linkedin className="h-5 w-5" />
-                            </a>
                         </div>
                         <div className="mt-8">
                             <p className="text-xs text-white/40 uppercase tracking-wider mb-2">Our Regions</p>

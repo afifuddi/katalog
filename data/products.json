@@ -6,6 +6,7 @@
         "type": "Arabica",
         "variety": "Sigararutang",
         "region": "North Tapanuli",
+        "region_id": "Tapanuli Utara",
         "process": "Semi-Washed",
         "grade": "Specialty",
         "moisture": "12%",
@@ -14,7 +15,9 @@
         "sca": "84",
         "defects": "< 11 points",
         "desc": "Known for its strong body, balanced acidity, and distinctive herbal and spicy notes.",
+        "desc_id": "Dikenal dengan body yang kuat, keasaman seimbang, serta nota rasa herbal dan rempah yang khas.",
         "detailed_desc": "Sigararutang, meaning 'the debt payer' in Batak language due to its high productivity, is sourced from North Tapanuli Regency and surrounding highland areas. This variety is renowned for its strong body, balanced acidity, and distinctive herbal and spicy notes. First commercial harvest occurs around 3.5-4.5 years after planting, with optimal quality produced at 1,000-1,400 masl.",
+        "detailed_desc_id": "Sigararutang, yang berarti 'si pembayar hutang' dalam bahasa Batak karena produktivitasnya yang tinggi, berasal dari Kabupaten Tapanuli Utara dan daerah dataran tinggi sekitarnya. Varietas ini terkenal dengan body yang kuat, keasaman seimbang, serta nota rasa herbal dan rempah yang khas. Panen komersial pertama terjadi sekitar 3,5-4,5 tahun setelah tanam, dengan kualitas optimal diproduksi pada ketinggian 1.000-1.400 mdpl.",
         "image": "/images/catalog/kopi-arabica-sigararutang.png"
     },
     {
@@ -24,6 +27,7 @@
         "type": "Arabica",
         "variety": "Typica & Catimor",
         "region": "Dairi Regency",
+        "region_id": "Kabupaten Dairi",
         "process": "Wet-Hulled",
         "grade": "Specialty",
         "moisture": "11.5%",
@@ -31,7 +35,9 @@
         "sca": "85",
         "defects": "< 5 points",
         "desc": "Complex flavor profile with floral and fruity aromas, balanced acidity, and clean aftertaste.",
+        "desc_id": "Profil rasa yang kompleks dengan aroma floral dan fruity, keasaman seimbang, dan aftertaste yang bersih.",
         "detailed_desc": "Sourced from Sidikalang District in the Bukit Barisan mountain range, this coffee has a rich history dating back to the Dutch colonial era. Sidikalang Arabica offers a complex flavor profile with floral and fruity aromas, balanced acidity, and a remarkably clean aftertaste that distinguishes it from other Sumatran coffees.",
+        "detailed_desc_id": "Berasal dari Kecamatan Sidikalang di pegunungan Bukit Barisan, kopi ini memiliki sejarah yang kaya sejak era kolonial Belanda. Sidikalang Arabica menawarkan profil rasa yang kompleks dengan aroma floral dan fruity, keasaman seimbang, dan aftertaste yang sangat bersih yang membedakannya dari kopi Sumatera lainnya.",
         "image": "/images/catalog/kopi-arabica-sidikalang.png"
     },
     {
@@ -40,7 +46,9 @@
         "name": "Sidikalang Robusta",
         "type": "Robusta",
         "variety": "Local Robusta",
+        "variety_id": "Robusta Lokal",
         "region": "Dairi Regency",
+        "region_id": "Kabupaten Dairi",
         "process": "Natural",
         "grade": "Fine",
         "moisture": "12%",
@@ -49,7 +57,9 @@
         "defects": "< 45 points",
         "certification": "Geographical Indication (GI)",
         "desc": "Full body, earthy and herbal notes, and strong character. GI Certified.",
+        "desc_id": "Full body, nota rasa earthy dan herbal, serta karakter yang kuat. Bersertifikat IG.",
         "detailed_desc": "This premium Robusta from Sidikalang features a full body with earthy and herbal notes, delivering a strong, bold character. It has received the prestigious Geographical Indication (GI) certification, recognizing its unique quality tied to the terroir of Dairi Regency.",
+        "detailed_desc_id": "Robusta premium dari Sidikalang ini memiliki full body dengan nota earthy dan herbal, memberikan karakter yang kuat dan tegas. Kopi ini telah menerima sertifikasi Indikasi Geografis (IG) yang bergengsi, mengakui kualitas uniknya yang terkait dengan terroir Kabupaten Dairi.",
         "image": "/images/catalog/kopi-robusta-sidikalang.png"
     },
     {
@@ -59,6 +69,7 @@
         "type": "Arabica",
         "variety": "Typica",
         "region": "Mandailing Natal",
+        "region_id": "Mandailing Natal",
         "process": "Wet-Hulled",
         "grade": "Grade 1",
         "moisture": "11.5%",
@@ -66,16 +77,19 @@
         "sca": "86",
         "defects": "< 11 points",
         "desc": "Full body, low acidity, with herbal, floral, and earthy aroma.",
+        "desc_id": "Full body, keasaman rendah, dengan aroma herbal, floral, dan earthy.",
         "detailed_desc": "From the Mandailing Natal region in the Bukit Barisan mountain range, this coffee was first introduced around 1835 during the Dutch colonial era. Mandailing Arabica is celebrated for its full body, low acidity, and complex herbal, floral, and earthy aromas that have made it famous worldwide.",
+        "detailed_desc_id": "Dari wilayah Mandailing Natal di pegunungan Bukit Barisan, kopi ini pertama kali diperkenalkan sekitar tahun 1835 pada era kolonial Belanda. Mandailing Arabica dirayakan karena body-nya yang penuh, keasaman rendah, dan aroma herbal, floral, dan earthy yang kompleks yang telah membuatnya terkenal di seluruh dunia.",
         "image": "/images/catalog/kopi-arabica-mandailing.png"
     },
     {
         "id": "gayo-arabica",
         "slug": "gayo-arabica",
-        "name": "Gayo Highland Arabica",
+        "name": "Gayo Arabica",
         "type": "Arabica",
         "variety": "Gayo 1 & Gayo 2",
         "region": "Aceh",
+        "region_id": "Aceh",
         "process": "Semi-Washed",
         "grade": "Specialty",
         "moisture": "11.5%",
@@ -85,7 +99,9 @@
         "defects": "< 5 points",
         "certification": "Geographical Indication (GI)",
         "desc": "Clean cup profile, rich body, and balanced acidity. GI Certified.",
+        "desc_id": "Profil clean cup, body yang kaya, dan keasaman seimbang. Bersertifikat IG.",
         "detailed_desc": "From the Gayo Highlands of Aceh Tengah, Bener Meriah, and Gayo Lues, this internationally recognized specialty coffee boasts a clean cup profile, rich body, and balanced acidity. With Geographical Indication (GI) status, Gayo coffee is exported to USA, Europe, and Japan, representing the finest of Indonesian specialty coffee.",
+        "detailed_desc_id": "Dari Dataran Tinggi Gayo di Aceh Tengah, Bener Meriah, dan Gayo Lues, kopi spesialti yang diakui secara internasional ini membanggakan profil clean cup, body yang kaya, dan keasaman seimbang. Dengan status Indikasi Geografis (IG), kopi Gayo diekspor ke AS, Eropa, dan Jepang, mewakili yang terbaik dari kopi spesialti Indonesia.",
         "image": "/images/catalog/kopi-arabica-gayo.png"
     },
     {
@@ -94,7 +110,9 @@
         "name": "Gayo Robusta",
         "type": "Robusta",
         "variety": "Local Robusta",
+        "variety_id": "Robusta Lokal",
         "region": "Aceh",
+        "region_id": "Aceh",
         "process": "Natural",
         "grade": "Fine",
         "moisture": "12%",
@@ -102,7 +120,9 @@
         "sca": "80",
         "defects": "< 45 points",
         "desc": "Strong body, bold bitterness, and chocolatey undertones with earthy notes.",
+        "desc_id": "Strong body, rasa pahit yang tegas, dan nuansa cokelat dengan nota earthy.",
         "detailed_desc": "Gayo Robusta delivers a powerful cup with a strong body, bold bitterness, and distinctive chocolatey undertones. Grown in the highlands of Aceh, this coffee is perfect for espresso blends or for those seeking an intense, full-flavored coffee experience with the unique character of Gayo terroir.",
+        "detailed_desc_id": "Gayo Robusta menghadirkan secangkir kopi yang kuat dengan strong body, rasa pahit yang tegas, dan nuansa cokelat yang khas. Ditanam di dataran tinggi Aceh, kopi ini sempurna untuk campuran espresso atau bagi mereka yang mencari pengalaman kopi yang intens dan penuh rasa dengan karakter unik terroir Gayo.",
         "image": "/images/catalog/kopi-robusta-gayo.png"
     }
 ]

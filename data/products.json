@@ -55,11 +55,10 @@
         "altitude": "1,000-1,300 masl",
         "sca": "82",
         "defects": "< 45 points",
-        "certification": "Geographical Indication (GI)",
-        "desc": "Full body, earthy and herbal notes, and strong character. GI Certified.",
-        "desc_id": "Full body, nota rasa earthy dan herbal, serta karakter yang kuat. Bersertifikat IG.",
-        "detailed_desc": "This premium Robusta from Sidikalang features a full body with earthy and herbal notes, delivering a strong, bold character. It has received the prestigious Geographical Indication (GI) certification, recognizing its unique quality tied to the terroir of Dairi Regency.",
-        "detailed_desc_id": "Robusta premium dari Sidikalang ini memiliki full body dengan nota earthy dan herbal, memberikan karakter yang kuat dan tegas. Kopi ini telah menerima sertifikasi Indikasi Geografis (IG) yang bergengsi, mengakui kualitas uniknya yang terkait dengan terroir Kabupaten Dairi.",
+        "desc": "Full body, earthy and herbal notes, and strong character.",
+        "desc_id": "Full body, nota rasa earthy dan herbal, serta karakter yang kuat.",
+        "detailed_desc": "This premium Robusta from Sidikalang features a full body with earthy and herbal notes, delivering a strong, bold character. Grown in the highlands of Dairi Regency, it represents the finest quality of Sumatran Robusta.",
+        "detailed_desc_id": "Robusta premium dari Sidikalang ini memiliki full body dengan nota earthy dan herbal, memberikan karakter yang kuat dan tegas. Ditanam di dataran tinggi Kabupaten Dairi, kopi ini mewakili kualitas terbaik Robusta Sumatera.",
         "image": "/images/catalog/kopi-robusta-sidikalang.png"
     },
     {
@@ -97,11 +96,10 @@
         "optimal_altitude": "1,000-1,700 masl",
         "sca": "85",
         "defects": "< 5 points",
-        "certification": "Geographical Indication (GI)",
-        "desc": "Clean cup profile, rich body, and balanced acidity. GI Certified.",
-        "desc_id": "Profil clean cup, body yang kaya, dan keasaman seimbang. Bersertifikat IG.",
-        "detailed_desc": "From the Gayo Highlands of Aceh Tengah, Bener Meriah, and Gayo Lues, this internationally recognized specialty coffee boasts a clean cup profile, rich body, and balanced acidity. With Geographical Indication (GI) status, Gayo coffee is exported to USA, Europe, and Japan, representing the finest of Indonesian specialty coffee.",
-        "detailed_desc_id": "Dari Dataran Tinggi Gayo di Aceh Tengah, Bener Meriah, dan Gayo Lues, kopi spesialti yang diakui secara internasional ini membanggakan profil clean cup, body yang kaya, dan keasaman seimbang. Dengan status Indikasi Geografis (IG), kopi Gayo diekspor ke AS, Eropa, dan Jepang, mewakili yang terbaik dari kopi spesialti Indonesia.",
+        "desc": "Clean cup profile, rich body, and balanced acidity.",
+        "desc_id": "Profil clean cup, body yang kaya, dan keasaman seimbang.",
+        "detailed_desc": "From the Gayo Highlands of Aceh Tengah, Bener Meriah, and Gayo Lues, this internationally recognized specialty coffee boasts a clean cup profile, rich body, and balanced acidity. Gayo coffee is exported to USA, Europe, and Japan, representing the finest of Indonesian specialty coffee.",
+        "detailed_desc_id": "Dari Dataran Tinggi Gayo di Aceh Tengah, Bener Meriah, dan Gayo Lues, kopi spesialti yang diakui secara internasional ini membanggakan profil clean cup, body yang kaya, dan keasaman seimbang. Kopi Gayo diekspor ke AS, Eropa, dan Jepang, mewakili yang terbaik dari kopi spesialti Indonesia.",
         "image": "/images/catalog/kopi-arabica-gayo.png"
     },
     {

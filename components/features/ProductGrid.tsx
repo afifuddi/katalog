@@ -64,14 +64,6 @@ function ProductCard({ product, language }: { product: Product; language: 'en' |
                     onLoad={() => setImageLoaded(true)}
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors pointer-events-none" />
-
-                {/* GI Badge */}
-                {product.certification && (
-                    <div className="absolute top-4 right-4 bg-primary text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-full flex items-center gap-1.5">
-                        <Award className="h-3 w-3" />
-                        {t.giCertified[language]}
-                    </div>
-                )}
             </div>
             <div className="p-8 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-4">

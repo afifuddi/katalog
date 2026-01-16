@@ -165,7 +165,7 @@ export default function Home() {
                 <Mountain className="h-8 w-8 text-primary mb-4" />
                 <h3 className="text-xl font-serif font-bold text-white mb-2 group-hover:text-primary transition-colors">Sidikalang</h3>
                 <p className="text-white/40 text-sm mb-3">{language === 'en' ? 'Dairi Regency' : 'Kabupaten Dairi'}</p>
-                <p className="text-white/60 text-sm">1,150-1,500 masl • {language === 'en' ? 'Floral, fruity aromas with GI certification' : 'Aroma floral, fruity, bersertifikat IG'}</p>
+                <p className="text-white/60 text-sm">1,150-1,500 masl • {language === 'en' ? 'Floral, fruity aromas with clean aftertaste' : 'Aroma floral, fruity dengan aftertaste bersih'}</p>
               </div>
               <div className="p-8 bg-zinc-900/50 rounded-2xl border border-white/5 hover:border-primary/30 transition-all group hover:-translate-y-1 duration-300">
                 <Mountain className="h-8 w-8 text-primary mb-4" />

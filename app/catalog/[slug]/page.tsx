@@ -127,11 +127,6 @@ export default function ProductDetail() {
                                     onLoad={() => setImageLoaded(true)}
                                     priority
                                 />
-                                {product.certification && (
-                                    <div className="absolute top-2 right-2 bg-primary text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full flex items-center gap-1">
-                                        <Award className="h-3 w-3" /> GI
-                                    </div>
-                                )}
                             </div>
 
                             {/* Title & Quick Info */}

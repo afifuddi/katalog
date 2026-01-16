@@ -102,11 +102,11 @@ export default function Export() {
                             </div>
                             <div className="bg-zinc-900/50 p-8 rounded-2xl border border-white/5">
                                 <Award className="h-10 w-10 text-primary mb-6" />
-                                <h3 className="font-serif font-bold text-xl text-white mb-4">{language === 'en' ? 'GI Certification' : 'Sertifikasi IG'}</h3>
+                                <h3 className="font-serif font-bold text-xl text-white mb-4">{language === 'en' ? 'Traceability' : 'Ketertelusuran'}</h3>
                                 <p className="text-white/60 leading-relaxed">
                                     {language === 'en'
-                                        ? 'Our Sidikalang and Gayo coffees hold Geographical Indication (GI) certification, ensuring authentic regional quality.'
-                                        : 'Kopi Sidikalang dan Gayo kami memegang sertifikasi Indikasi Geografis (IG), menjamin keaslian kualitas daerah.'
+                                        ? 'Full traceability from farm to port, with documented lot information for every shipment.'
+                                        : 'Ketertelusuran penuh dari kebun hingga pelabuhan, dengan informasi lot terdokumentasi untuk setiap pengiriman.'
                                     }
                                 </p>
                             </div>

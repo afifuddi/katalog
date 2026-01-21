@@ -80,12 +80,14 @@ export function Footer() {
                     {/* Socials */}
                     <div>
                         <h3 className="font-serif font-bold text-lg mb-6">{t.followUs[language]}</h3>
-                        <div className="flex space-x-4">
-                            <a target='_blank' href="https://www.instagram.com/borbore.id" className="p-3 bg-zinc-900 rounded-full hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5">
+                        <div className="flex flex-col space-y-3">
+                            <a target='_blank' href="https://www.instagram.com/borbore.id" className="inline-flex items-center gap-3 px-4 py-3 bg-zinc-900 rounded-xl hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5 group">
                                 <Instagram className="h-5 w-5" />
+                                <span className="text-sm font-medium">Instagram</span>
                             </a>
-                            <a target='_blank' href="https://www.tiktok.com/@borboreofficial.id" className="p-3 bg-zinc-900 rounded-full hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5">
+                            <a target='_blank' href="https://www.tiktok.com/@borboreofficial.id" className="inline-flex items-center gap-3 px-4 py-3 bg-zinc-900 rounded-xl hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5 group">
                                 <TikTokIcon className="h-5 w-5" />
+                                <span className="text-sm font-medium">TikTok</span>
                             </a>
                         </div>
                         <div className="mt-8">

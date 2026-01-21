@@ -104,6 +104,10 @@ export function Footer() {
 
                 <div className="mt-16 pt-8 border-t border-white/5 text-center text-sm text-white/40">
                     <p>&copy; {new Date().getFullYear()} PT Agro Beans Global (AF Brother Group). {language === 'en' ? 'All rights reserved.' : 'Hak cipta dilindungi.'}</p>
+                    <p className="mt-3 text-xs text-white/20">
+                        {language === 'en' ? 'Developed by' : 'Dikembangkan oleh'}{' '}
+                        <span className="text-white/30 font-medium">PanahTech</span>
+                    </p>
                 </div>
             </div>
         </footer>

@@ -56,12 +56,26 @@ export default function Home() {
 
             {/* Left Content */}
             <div className="space-y-8 pt-20">
-              <div>
-                <h1 className="text-6xl md:text-8xl font-serif text-white font-bold leading-tight mb-4">
-                  BORBORÉ
-                  <span className="text-primary">.id</span>
+              <div className="space-y-6">
+
+                {/* Main Heading */}
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-[1.1] tracking-tight">
+                  <span className="text-white">BORBORE</span>
+                  <br />
+                  <span className="text-primary">
+                    BEANS COFFEE
+                  </span>
                 </h1>
-                <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide">
+
+                {/* Origin Subtitle */}
+                <div className="flex items-center gap-3">
+                  <p className="text-white/50 text-sm tracking-[0.2em] uppercase font-light">
+                    Born in <span className="text-primary font-medium">Siborong-Borong</span>
+                  </p>
+                </div>
+
+                {/* Tagline */}
+                <p className="text-lg md:text-xl text-white/70 font-light tracking-wide max-w-md">
                   {t.tagline[language]}
                 </p>
               </div>

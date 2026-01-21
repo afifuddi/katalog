@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Mail, MapPin, Instagram, Building2 } from 'lucide-react';
+import { TikTokIcon } from '@/components/icons/TikTokIcon';
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/i18n';
 
@@ -82,6 +83,9 @@ export function Footer() {
                         <div className="flex space-x-4">
                             <a target='_blank' href="https://www.instagram.com/borbore.id" className="p-3 bg-zinc-900 rounded-full hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5">
                                 <Instagram className="h-5 w-5" />
+                            </a>
+                            <a target='_blank' href="https://www.tiktok.com/@borboreofficial.id" className="p-3 bg-zinc-900 rounded-full hover:bg-primary hover:text-white text-white/80 transition-all border border-white/5">
+                                <TikTokIcon className="h-5 w-5" />
                             </a>
                         </div>
                         <div className="mt-8">

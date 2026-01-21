@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import productsData from '@/data/products.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://katalog-sepia.vercel.app';
+    const baseUrl = 'https://borboreofficial.id';
 
     // Static pages
     const staticPages = [

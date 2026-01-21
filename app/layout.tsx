@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://katalog-sepia.vercel.app";
+const siteUrl = "https://borboreofficial.id";
 
 export const metadata: Metadata = {
   // Basic SEO

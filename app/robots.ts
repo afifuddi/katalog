@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: ['/api/', '/_next/'],
             },
         ],
-        sitemap: 'https://katalog-sepia.vercel.app/sitemap.xml',
+        sitemap: 'https://borboreofficial.id/sitemap.xml',
     };
 }

@@ -40,6 +40,7 @@ export const metadata: Metadata = {
     "Coffee export",
     "PT Agro Beans Global",
     "BORBORÉ",
+    "BORBORE",
     "North Sumatra coffee",
     "Aceh coffee",
     "Single origin coffee",
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
     description: "A professional Indonesian coffee exporter delivering premium Arabica and Robusta sourced from the highland regions of North Sumatra and Aceh.",
     images: [
       {
-        url: `${siteUrl}/logo.png`,
+        url: `${siteUrl}/logoBBR.jpg`,
         width: 1200,
         height: 630,
         alt: "BORBORÉ - Premium Indonesian Coffee",
@@ -83,7 +84,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BORBORÉ.id | Premium Indonesian Coffee Exporter",
     description: "Professional Indonesian coffee exporter delivering premium Arabica and Robusta from North Sumatra and Aceh.",
-    images: [`${siteUrl}/logo.png`],
+    images: [`${siteUrl}/logoBBR.jpg`],
   },
 
   // Robots

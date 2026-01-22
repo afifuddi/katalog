@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Mail, MapPin, Instagram, Building2 } from 'lucide-react';
 import { TikTokIcon } from '@/components/icons/TikTokIcon';
+import { WhatsAppIcon } from '@/components/icons/WhatsAppIcon';
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/i18n';
 
@@ -52,8 +53,14 @@ export function Footer() {
                         <ul className="space-y-4 text-sm text-white/60">
                             <li className="flex items-center space-x-3">
                                 <Mail className="h-4 w-4 text-primary" />
-                                <a href="mailto:borboreofficial.id@gmail.com" className="hover:text-primary transition-colors">
+                                <a target="_blank" href="mailto:borboreofficial.id@gmail.com" className="hover:text-primary transition-colors">
                                     borboreofficial.id@gmail.com
+                                </a>
+                            </li>
+                            <li className="flex items-center space-x-3">
+                                <WhatsAppIcon className="h-4 w-4 text-primary" />
+                                <a target="_blank" href="https://wa.me/6285893689502" className="hover:text-primary transition-colors">
+                                    +62 858-9368-9502
                                 </a>
                             </li>
                             <li className="flex items-start space-x-3">
@@ -89,6 +96,7 @@ export function Footer() {
                                 <TikTokIcon className="h-5 w-5" />
                                 <span className="text-sm font-medium">TikTok</span>
                             </a>
+
                         </div>
                         <div className="mt-8">
                             <p className="text-xs text-white/40 uppercase tracking-wider mb-2">{t.ourRegions[language]}</p>

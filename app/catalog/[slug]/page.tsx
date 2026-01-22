@@ -150,9 +150,7 @@ export default function ProductDetail() {
                                             {t.requestQuote[language]}
                                         </Button>
                                     </Link>
-                                    <Button variant="outline" className="w-full sm:w-auto h-12 px-6 border-white/20 text-white hover:bg-white hover:text-black rounded-full font-medium text-sm">
-                                        <Download className="mr-2 h-4 w-4" /> {t.specSheet[language]}
-                                    </Button>
+                                    
                                 </div>
                             </div>
                         </div>

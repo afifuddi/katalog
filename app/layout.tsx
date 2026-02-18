@@ -161,7 +161,7 @@ export default function RootLayout({
               name: "PT Agro Beans Global",
               alternateName: "BORBORÉ.id",
               url: siteUrl,
-              logo: `${siteUrl}/logo.png`,
+              logo: `${siteUrl}/logoBBR.jpg`,
               description: "Professional Indonesian coffee exporter delivering premium Arabica and Robusta from North Sumatra and Aceh.",
               address: {
                 "@type": "PostalAddress",

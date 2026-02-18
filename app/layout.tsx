@@ -49,6 +49,9 @@ export const metadata: Metadata = {
   authors: [{ name: "PT Agro Beans Global" }],
   creator: "PT Agro Beans Global",
   publisher: "PT Agro Beans Global",
+  verification: {
+    google: "MiOLmoubVkqi2gfLOdom9nrFgIUMPJdmtArpiybjGBc",
+  },
 
   // Favicon & Icons
   icons: {

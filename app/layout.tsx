@@ -179,21 +179,18 @@ export default function RootLayout({
             }),
           }}
         />
-        {/* Structured Data - Product */}
+        {/* Structured Data - WebSite */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Product",
-              name: "Premium Indonesian Coffee",
-              description: "Export-grade Arabica and Robusta coffee beans from North Sumatra and Aceh highlands.",
-              brand: {
-                "@type": "Brand",
-                name: "BORBORÉ",
-              },
-              category: "Coffee",
-              manufacturer: {
+              "@type": "WebSite",
+              name: "BORBORÉ.id",
+              alternateName: "Borbore Official",
+              url: siteUrl,
+              description: "Professional Indonesian coffee exporter delivering premium Arabica and Robusta from North Sumatra and Aceh.",
+              publisher: {
                 "@type": "Organization",
                 name: "PT Agro Beans Global",
               },

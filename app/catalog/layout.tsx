@@ -33,6 +33,10 @@ export const metadata: Metadata = {
         "kopi single origin",
         "green bean kopi",
         "kopi dataran tinggi Sumatera",
+        "borbore official",
+        "borbore coffee",
+        "borbore.id",
+        "borbore"
     ],
     openGraph: {
         title: "Coffee Catalog | BORBORÉ.id",

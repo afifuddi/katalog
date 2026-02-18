@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   },
   description: "A professional Indonesian coffee exporter delivering premium Arabica and Robusta sourced from the highland regions of North Sumatra and Aceh. Export-grade quality with distinctive flavor profiles.",
   keywords: [
+    // English
     "Indonesian coffee exporter",
     "Arabica coffee",
     "Robusta coffee",
@@ -45,6 +46,26 @@ export const metadata: Metadata = {
     "North Sumatra coffee",
     "Aceh coffee",
     "Single origin coffee",
+    // Indonesian
+    "eksportir kopi Indonesia",
+    "kopi Arabika",
+    "kopi Robusta",
+    "kopi Sumatera",
+    "kopi Gayo",
+    "kopi Sidikalang",
+    "kopi Mandailing",
+    "kopi spesialti Indonesia",
+    "biji kopi mentah",
+    "ekspor kopi",
+    "kopi dataran tinggi",
+    "kopi Sumatera Utara",
+    "kopi Aceh",
+    "kopi single origin",
+    "jual kopi ekspor",
+    "supplier kopi Indonesia",
+    "green bean kopi",
+    "kopi Tapanuli",
+    "kopi Siborong-Borong",
   ],
   authors: [{ name: "PT Agro Beans Global" }],
   creator: "PT Agro Beans Global",
@@ -104,10 +125,7 @@ export const metadata: Metadata = {
     },
   },
 
-  // Verification (add your actual verification codes)
-  // verification: {
-  //   google: "your-google-verification-code",
-  // },
+
 
   // Canonical URL
   metadataBase: new URL(siteUrl),

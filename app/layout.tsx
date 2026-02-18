@@ -72,6 +72,7 @@ export const metadata: Metadata = {
   publisher: "PT Agro Beans Global",
   verification: {
     google: "MiOLmoubVkqi2gfLOdom9nrFgIUMPJdmtArpiybjGBc",
+    yandex: "df80c0a438e17784"
   },
 
   // Favicon & Icons

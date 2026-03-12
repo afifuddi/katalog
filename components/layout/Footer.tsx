@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Mail, MapPin, Instagram, Building2 } from 'lucide-react';
 import { TikTokIcon } from '@/components/icons/TikTokIcon';
 import { WhatsAppIcon } from '@/components/icons/WhatsAppIcon';
+import { PiMicrosoftOutlookLogoDuotone } from "react-icons/pi";
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/i18n';
 
@@ -55,6 +56,12 @@ export function Footer() {
                                 <Mail className="h-4 w-4 text-primary" />
                                 <a target="_blank" href="mailto:borboreofficial.id@gmail.com" className="hover:text-primary transition-colors">
                                     borboreofficial.id@gmail.com
+                                </a>
+                            </li>
+                            <li className="flex items-center space-x-3">
+                                <PiMicrosoftOutlookLogoDuotone className="h-4 w-4 text-primary" />
+                                <a target="_blank" href="mailto:borboreofficial.id@outlook.com" className="hover:text-primary transition-colors">
+                                    borboreofficial.id@outlook.com
                                 </a>
                             </li>
                             <li className="flex items-center space-x-3">
